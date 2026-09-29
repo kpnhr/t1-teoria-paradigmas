@@ -10,7 +10,7 @@ let pi = 3 + 0.14159  // O valor literal 3 não possui um tipo específico, ent�
 // Operações com variáveis de tipos diferentes não é permitida. A linha abaixo irá causar um erro de compilação
 //var pi_mais_ano = pi + ano
 
-// Variáveis com valor potencialmente nulo devem ter tipo Optional
+// Variáveis com valor nulo devem ter tipo Optional
 let valor_opcional: Int? = nil
 
 print("Curso de \(curso), ano \(ano)")

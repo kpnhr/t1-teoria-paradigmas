@@ -3,6 +3,8 @@
 func criarContadorPassos() -> () -> Void {
 	var passos = 0  // Variável no escopo da função criarContadorPassos
 
+	// Closures são blocos de código. Em outras linguagens, são chamadas de lambdas, 
+	// funções anônimas, etc. Funções são um tipo especial de closure.
 	let contador = { 
 		// A closure captura a variável passos, estendendo seu tempo de vida
 		passos += 1
